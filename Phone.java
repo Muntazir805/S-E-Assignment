@@ -10,12 +10,17 @@ public class Phone {
         viewMenu();
     }
 
-    public void checkBalance() {
+   
+   
+
+System.out.printf("Hello");
+   
+    public void checkBalance() { // checking balance 
         System.out.println();
         System.out.println("  your current balance is:  " + getBalance());
     }
 
-    public void loadBalance() {
+    public void loadBalance() {   // loading balance 
         float f = 0.0f;
 
         System.out.println("Enter your amount: ");
@@ -129,6 +134,7 @@ public class Phone {
             System.out.println("____________________________________________________");
             System.out.println();
             
+           // showing main menu to the user 
             System.out.println("    ******    Type Option:  ******  ");
              System.out.println();
              System.out.println("    1.  Check Balance  .       ");
@@ -139,6 +145,8 @@ public class Phone {
              System.out.println("    6.  Exist          .       ");
              System.out.println("    7.  About Us       .       ");
 
+           
+           // we have  to perform task as per user choice 
 
             choice = input.nextInt();
             switch (choice) {
